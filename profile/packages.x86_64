@@ -1,0 +1,38 @@
+
+# Core system
+base
+linux
+linux-firmware
+mkinitcpio
+mkinitcpio-archiso
+systemd
+sudo
+
+# Networking
+networkmanager
+iwd
+openssh
+curl
+wget
+git
+
+# Desktop environment
+plasma-desktop
+sddm
+konsole
+dolphin
+kate
+
+# Browser
+firefox
+
+# Audio
+pipewire
+pipewire-pulse
+wireplumber
+
+# Hardware and utilities
+mesa
+nano
+vim
+bash-completion
