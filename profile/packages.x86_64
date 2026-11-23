@@ -126,3 +126,34 @@ xdg-utils
 xfsprogs
 xl2tpd
 zsh
+
+# Websue OS - KDE Plasma desktop
+plasma-desktop
+plasma-nm
+plasma-pa
+sddm
+dolphin
+konsole
+kate
+ark
+firefox
+
+# Networking
+networkmanager
+
+# Audio
+pipewire
+pipewire-pulse
+wireplumber
+
+# Graphics and desktop utilities
+mesa
+xdg-user-dirs
+
+# Websue OS - desktop essentials
+systemsettings
+plasma-workspace-wallpapers
+plasma-systemmonitor
+xdg-desktop-portal-kde
+breeze
+breeze-gtk

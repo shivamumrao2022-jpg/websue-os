@@ -1,0 +1,13 @@
+{
+    "KPlugin": {
+        "Id": "websue-layout",
+        "Name": "Websue Desktop",
+        "Description": "Elegant minimal desktop layout for Websue OS",
+        "Version": "1.0",
+        "License": "MIT"
+    },
+    "X-KDE-PluginInfo-Name": "websue-layout",
+    "KPackageStructure": "Plasma/LayoutTemplate",
+    "X-Plasma-Shell": "org.kde.plasma.desktop",
+    "X-Plasma-ContainmentCategories": ["panel"]
+}

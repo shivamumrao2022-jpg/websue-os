@@ -1,0 +1,10 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Id": "org.websue.desktop",
+        "Name": "Websue",
+        "Description": "Elegant and minimal desktop experience",
+        "Version": "1.0",
+        "License": "MIT"
+    }
+}
