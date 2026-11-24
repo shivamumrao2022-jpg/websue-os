@@ -1,53 +1,68 @@
-# websue-os
 # Websue OS
 
 <p align="center">
-  <img src="branding/logo.png" alt="Websue OS Logo" width="120" />
+  <img src="branding/logo.png" alt="Websue OS" width="150" />
 </p>
 
-<h3 align="center">A Linux experience built from the ground up.</h3>
+<h3 align="center">A different perspective on Linux.</h3>
 
 <p align="center">
-  An experimental, Arch Linux-based distribution focused on developer productivity, customization, and a refined desktop experience.
+  An experimental Arch-based Linux distribution built around simplicity, customization, and developer productivity.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Platform-Linux-blue?style=for-the-badge&logo=linux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Architecture-x86__64-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Base-Arch%20Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Status-Experimental-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Architecture-x86__64-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Base-Arch%20Linux-1793D1?style=flat-square&logo=archlinux" />
+  <img src="https://img.shields.io/badge/Desktop-KDE%20Plasma-1D99F3?style=flat-square&logo=kde" />
+  <img src="https://img.shields.io/badge/Status-Experimental-orange?style=flat-square" />
+  <img src="https://img.shields.io/badge/License-TBD-lightgrey?style=flat-square" />
 </p>
 
 ---
 
 ## About
 
-**Websue OS** is an experimental Linux distribution designed to explore what a modern, developer-oriented operating system can become.
+**Websue OS** is an independent Linux distribution project built on the Arch Linux ecosystem.
 
-Built on the Arch Linux ecosystem, the project aims to combine flexibility, performance, a carefully designed desktop experience, and useful native tools.
+The project explores a more refined desktop experience: minimal, customizable, developer-oriented, and designed with its own visual identity.
 
-This is more than a desktop theme. The long-term vision is to develop a recognizable Linux experience with its own identity and ecosystem.
+Rather than simply applying a theme to an existing desktop, Websue aims to bring together system configuration, desktop design, and custom utilities into a cohesive operating system.
 
-## Vision
+## Design Philosophy
 
-- **Simplicity** — A clean and intuitive user experience.
-- **Performance** — A lightweight and efficient foundation.
-- **Customization** — A desktop experience that feels personal.
-- **Developer-first** — Tools and workflows designed for builders.
-- **Open source** — Transparent development and community contributions.
+| Principle | Direction |
+|---|---|
+| Simplicity | An uncluttered and intuitive interface |
+| Performance | A flexible Arch Linux foundation |
+| Design | Consistent visual language and thoughtful details |
+| Productivity | A desktop environment for everyday development |
+| Freedom | Customization without unnecessary restrictions |
 
-## Technology Stack
+## Visual Identity
+
+Websue follows a minimal design language built around:
+
+- Graphite dark surfaces
+- Warm off-white backgrounds
+- Soft grey secondary elements
+- Blue accents (`#007AFF`)
+- Clean typography and subtle interface details
+
+The desktop direction includes a top panel, a bottom application dock, and coordinated light and dark appearances.
+
+## Technology
 
 | Component | Technology |
 |---|---|
-| Base distribution | Arch Linux |
+| Base | Arch Linux |
 | Architecture | x86_64 |
 | Package manager | Pacman |
 | Init system | systemd |
-| Desktop environment | KDE Plasma (planned) |
-| ISO builder | Archiso |
-| Build infrastructure | GitHub Actions |
-| Custom utilities | Rust (planned) |
+| Desktop environment | KDE Plasma |
+| Display manager | SDDM |
+| ISO generation | Archiso |
+| Build automation | GitHub Actions |
+| Planned utilities | Rust |
 
 ## Project Structure
 
@@ -66,40 +81,75 @@ websue-os/
 └── README.md
 ```
 
+## Development Status
+
+Websue OS is under active development.
+
+**Current progress**
+- Initial repository and project structure
+- Archiso profile configuration
+- Initial package selection
+- KDE Plasma desktop configuration
+- Automated ISO build through GitHub Actions
+- First development ISO generated
+
+**Still being worked on**
+- First-boot verification
+- Live user and login configuration
+- Desktop layout and theme validation
+- Hardware compatibility testing
+- Installation and release documentation
+
 ## Roadmap
 
-- [x] Initial repository setup
-- [x] Initial package manifest
-- [x] ISO profile configuration
-- [ ] Complete Archiso boot configuration
-- [ ] Automated ISO build pipeline
-- [ ] First bootable ISO
-- [ ] Websue branding and visual identity
-- [ ] Custom system utilities
-- [ ] Public testing release
+- [x] Repository foundation
+- [x] Initial Archiso profile
+- [x] Initial ISO build pipeline
+- [x] First development ISO generated
+- [ ] Verify successful live boot
+- [ ] Validate KDE Plasma experience
+- [ ] Finalize Websue visual identity
+- [ ] Improve system configuration
+- [ ] Add custom utilities
+- [ ] Publish first testing release
 
-## Getting Started
+## Building
 
-Websue OS is currently under development.
+The project uses Archiso to generate its development ISO.
 
-The first development milestone is a reproducible x86_64 live ISO that can be tested in a virtual machine.
+A successful build does not yet guarantee that every desktop component or hardware configuration works correctly.
 
-Build instructions and release downloads will be published here as the project progresses.
+Build workflow:
+
+1. Push changes to the `main` branch or manually trigger the GitHub Actions workflow.
+2. Wait for the ISO build job to complete.
+3. Download the generated `websue-os-iso` workflow artifact.
+4. Extract the ZIP archive to obtain the ISO.
+
+Build and testing documentation will be expanded as development progresses.
 
 ## Contributing
 
-Contributions, ideas, bug reports, and feedback are welcome.
+Websue is an experimental open-source project, and contributions are welcome.
 
-Please note that the project is experimental and its architecture may change.
+You can contribute through:
+
+- Bug reports
+- Feature suggestions
+- Documentation improvements
+- Desktop experience feedback
+- Code contributions
+
+Please remember that project architecture and features may change during development.
 
 ## License
 
-The project license will be finalized before the first public release.
+The project license has not yet been finalized.
 
 ---
 
 <p align="center">
-  <b>Websue OS</b>
+  <strong>Websue OS</strong>
   <br/>
   Built for exploration. Designed for builders.
 </p>
